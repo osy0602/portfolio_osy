@@ -80,18 +80,17 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Weather based Korean Menu Recommender",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "Recommend a Korean dish based on weather condition and temperature.",
     href: "",
     image: "/assets/projects/mobile-accessories-store.jpg",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
       { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
+      { id: 2, name: "Javascript" },
       { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 4, name: "WeatherAPI" },
     ],
   },
   {

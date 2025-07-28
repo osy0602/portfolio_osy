@@ -6,6 +6,7 @@ import Services from './sections/Services'
 import ReactLenis from 'lenis/react'
 import About from './sections/About'
 import Works from './sections/Works'
+import ContactSummary from './sections/ContactSummary'
 const App = () => {
   return (
     <ReactLenis root className='relative w-screen min-h-screen overflow-x-auto'>
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <About />
       <Works />
+      <ContactSummary />
       <section className='h-screen' />
       <section className='h-screen' />
       <section className='h-screen' />

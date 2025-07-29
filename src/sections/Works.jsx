@@ -8,7 +8,7 @@ const Works = () => {
     const [currentIndex, setCurrentIndex] = useState(null);
     const previewRef = useRef(null);
     const overlayRefs = useRef([]);
-    const text = `Featured project that have been meticulously crafted with passion to drive results and impact.`;
+    const text = `Seleted works and practical applications of my skills set`;
     const moveX = useRef(null);
     const moveY = useRef(null);
     const mouse = useRef({x:0, y:0});
@@ -85,7 +85,7 @@ const Works = () => {
   return (
     <section id='work' className="flex flex-col min-h-screen">
         <AnimatedHeaderSection
-            subTitle={"Logic meets Aesthetics, Seamlessly"}
+            subTitle={"Things I've Built"}
             title={"Works"}
             text={text}
             textColor={"text-black"}

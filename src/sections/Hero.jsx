@@ -3,8 +3,7 @@ import { City } from "../components/City";
 import { Environment, Float, Lightformer } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
 import { useEffect } from 'react';
-import AnimatedHeaderSection from '../components/AnimatedHeaderSection';
-
+import AnimatedNameSection from '../components/AnimatedNameSection';
 
 
 const CameraController = () => {
@@ -20,11 +19,11 @@ const CameraController = () => {
 
 const Hero = () => {
     const isMobile = useMediaQuery({maxWidth: 853});
-    const text = "Passionate Frontend Developer with hands-on experience\n building AI-powered and interactive web applications.";
+    const text = "portfolio";
     
     return (
       <section id="home" className='flex flex-col justify-end min-h-screen'>
-          <AnimatedHeaderSection subTitle={"Flying beyond borders, Thinking beyond limits"} title={"Seyoung Oh"} text={text} textColor={"text-black"}/>
+          <AnimatedNameSection subTitle={`"Flying beyond borders, Thinking beyond limits"`} title={"Seyoung Oh"} text={text}/>
           
           <figure 
               className='absolute inset-0 -z-50' 

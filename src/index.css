@@ -94,6 +94,7 @@
   --color-gold: #cfa355;
   --font-amiamie: "Amiamie", sans-serif;
   --font-amiamie-round: "Amiamie-Round", sans-serif;
+  --font-theater: "TheaterBold";
 
   --animate-marquee: marquee 40s infinite linear;
   @keyframes marquee {
@@ -104,6 +105,15 @@
       transform: translateX(calc(-100% - var(--gap)));
     }
   }
+}
+/* TheaterBold */
+@font-face {
+  font-family: "TheaterBold";
+  src: url("/fonts/otf/Theater_Bold.otf") format("opentype"),
+    url("/fonts/ttf/Theater_Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {

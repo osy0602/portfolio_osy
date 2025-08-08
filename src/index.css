@@ -92,10 +92,14 @@
   --color-DarkLava: #393632;
   --color-SageGray: #8b8b73;
   --color-gold: #cfa355;
+  --color-red: #C0311B;
+  --color-yellow: #E5DFA1;
+  --color-cloud: #C2C7C1;
   --font-amiamie: "Amiamie", sans-serif;
   --font-amiamie-round: "Amiamie-Round", sans-serif;
   --font-theater: "TheaterBold";
-
+  --font-unica:"UnicaOne";
+  
   --animate-marquee: marquee 40s infinite linear;
   @keyframes marquee {
     from {
@@ -115,7 +119,14 @@
   font-style: normal;
   font-display: swap;
 }
-
+/* UnicaOne */
+@font-face {
+  font-family: "UnicaOne";
+  src: url("/fonts/ttf/UnicaOne-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 body {
   background: #6189C5;
   color: black;

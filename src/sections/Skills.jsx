@@ -25,7 +25,7 @@ const Skills = () => {
     });
   }, []);
   return (
-    <section id="skills" className="min-h-screen bg-black rounded-t-4xl">
+    <section id="skills" className="min-h-screen bg-cloud rounded-t-4xl">
       <AnimatedHeaderSection
         subTitle={"Under the Hood"}
         title={"Skills"}
@@ -37,7 +37,7 @@ const Skills = () => {
         <div
           ref={(el) => (serviceRefs.current[index] = el)}
           key={index}
-          className="sticky px-10 pt-6 pb-12 text-white bg-black border-t-2 border-white/30"
+          className="sticky px-10 pt-6 pb-12 text-white bg-cloud border-t-2 border-white/30"
           style={
             isDesktop
               ? {

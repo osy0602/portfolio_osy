@@ -62,6 +62,7 @@ const Skills = () => {
                       </span>
                       {item.title}
                     </h3>
+                    <p className="text-2xl text-black/40">{item.description}</p>
                     {itemIndex < service.items.length - 1 && (
                       <div className="w-full h-px my-2 bg-black/30" />
                     )}

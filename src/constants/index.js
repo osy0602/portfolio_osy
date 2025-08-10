@@ -6,35 +6,35 @@ export const servicesData = [
       "A great idea needs flawless execution. I develop robust, end-to-end web applications with clean architecture, focusing on performance, user experience, and scalability at every layer.",
     items: [
       {
-        title: "Backend Development",
-        description: "(Python, FastAPI, SQL/Firebase, API Design)",
+        title: "Frontend Development",
+        description: "React, HTML/CSS, Vite, Redux, State Management, Responsive UI/UX",
       },
       {
-        title: "Frontend Development",
-        description: "(React, Redux, State Management, Responsive UI/UX)",
+        title: "Backend Development",
+        description: "Python, FastAPI, SQL/Firebase/MongoDB, API Design",
       },
       {
         title: "Real-time Communication",
-        description: "(TCP/UDP Sockets, Firebase, Data Sync)",
+        description: "TCP/UDP Sockets, Firebase, Data Sync",
       },
     ],
   },
   {
     title: "AI & Data-Driven Applications",
     description:
-      "Data is just noise until it's turned into intelligence. I build smart, data-driven applications that use AI and machine learning to solve complex problems—from personalized recommendations to understanding user emotions.",
+      "Transform raw data into actionable insights. I build intelligent, data-driven applications using AI and machine learning, delivering personalized recommendations and user behavior analysis.",
     items: [
       {
         title: "AI Chatbots & LLMs",
-        description: "(OpenAI/Gemini APIs, Function Calling, Prompt Engineering)",
+        description: "OpenAI/Gemini APIs, Function Calling, Prompt Engineering",
       },
       {
         title: "Data Visualization & APIs",
-        description: "(REST APIs, Real-time Data, Interactive Dashboards)",
+        description: "REST APIs, Real-time Data, Interactive Dashboards",
       },
       {
         title: "Machine Learning",
-        description: "(Python, Keras, Supervised Learning, Data Processing)",
+        description: "Python, Supervised Learning, Data Processing",
       },
     ],
   },
@@ -45,15 +45,15 @@ export const servicesData = [
     items: [
       {
         title: "Computer Vision & Interaction",
-        description: "(MediaPipe, Motion Recognition, Interactive Control)",
+        description: "MediaPipe, Motion Recognition, Interactive Control",
       },
       {
         title: "Hardware & Sensor Integration",
-        description: "(Brainwave/EEG Sensors, Real-time Data Capture)",
+        description: "Brainwave/EEG Sensors, Real-time Data Capture",
       },
       {
         title:"Game Engine Development",
-        description: "(Unity, C#, 3D Visualization)",
+        description: "Unity, C#, 3D Visualization",
       },
     ],
   },

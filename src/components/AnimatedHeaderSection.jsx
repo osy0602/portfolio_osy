@@ -37,11 +37,11 @@ const AnimatedHeaderSection = ({subTitle, title, text, textColor, withScrollTrig
             ref={headerRef}
             className='flex flex-col justify-center gap-12 pt-16 sm:gap-16'>
 
-                <p className={`text-sm font-light tracking-[0.5rem] uppercase px-10 ${textColor}`}>
+                <p className={`text-sm font-unica tracking-[0.5rem] uppercase px-10 ${textColor}`}>
                     {subTitle}
                 </p>
                 <div className='px-10'>
-                <h1 className={`flex flex-col flex-wrap gap-12 uppercase banner-text-responsive sm:gap-16 md:block ${textColor}`}>{title}</h1>
+                <h1 className={`flex flex-col flex-wrap gap-12 uppercase banner-text-responsive sm:gap-16 font-theater md:block ${textColor}`}>{title}</h1>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ const AnimatedHeaderSection = ({subTitle, title, text, textColor, withScrollTrig
                 <div className='py-12 sm:py-16 text-end'>
                     <AnimatedTextLines 
                     text = {text}
-                    className={`font-light uppercase value-text-responsive ${textColor}`}/>
+                    className={`font-unica uppercase value-text-responsive ${textColor}`}/>
                 </div>
         </div>
     </div>

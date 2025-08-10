@@ -1,90 +1,93 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Full-Stack Web Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "A great idea needs flawless execution. I develop robust, end-to-end web applications with clean architecture, focusing on performance, user experience, and scalability at every layer.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "Backend Development",
+        description: "(Python, FastAPI, SQL/Firebase, API Design)",
       },
       {
-        title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        title: "Frontend Development",
+        description: "(React, Redux, State Management, Responsive UI/UX)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
+        title: "Real-time Communication",
+        description: "(TCP/UDP Sockets, Firebase, Data Sync)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "AI & Data-Driven Applications",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Data is just noise until it's turned into intelligence. I build smart, data-driven applications that use AI and machine learning to solve complex problems—from personalized recommendations to understanding user emotions.",
     items: [
       {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
+        title: "AI Chatbots & LLMs",
+        description: "(OpenAI/Gemini APIs, Function Calling, Prompt Engineering)",
       },
       {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
+        title: "Data Visualization & APIs",
+        description: "(REST APIs, Real-time Data, Interactive Dashboards)",
       },
       {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Machine Learning",
+        description: "(Python, Keras, Supervised Learning, Data Processing)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "Interactive & Immersive Experiences",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "I go beyond traditional screens to create memorable experiences. By combining hardware sensors, real-time data, and game engine technology, I build applications that deeply engage and immerse users.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "Computer Vision & Interaction",
+        description: "(MediaPipe, Motion Recognition, Interactive Control)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "Hardware & Sensor Integration",
+        description: "(Brainwave/EEG Sensors, Real-time Data Capture)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
-      },
-    ],
-  },
-  {
-    title: "Web & Mobile Apps",
-    description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
-    items: [
-      {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
-      },
-      {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title:"Game Engine Development",
+        description: "(Unity, C#, 3D Visualization)",
       },
     ],
   },
 ];
 export const projects = [
+  
   {
     id: 1,
+    name: "TRIPPASS",
+    description:
+      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+    href: "https://github.com/osy0602/TripPass_osy0602_develop",
+    image: "/assets/backgrounds/trippass.jpg",
+    bgImage: "/assets/backgrounds/trippass.jpg",
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Javascript" },
+      { id: 3, name: "Python" },
+      { id: 4, name: "FastAPI" },
+      { id: 5, name: "MySQL" },
+      { id: 6, name: "MongoDB" },
+      { id: 7, name: "OpenAI" },
+      { id: 8, name: "Gemini" },
+      { id: 9, name: "SerpAPI" },
+      { id: 10, name: "OpenWeathermap" },
+    ],
+  },
+  {
+    id: 2,
     name: "Weather based Korean Menu Recommender",
     description:
       "Recommend a Korean dish based on weather condition and temperature.",
     href: "https://weather-kmenu.vercel.app/",
-    image: "/assets/projects/kmenu.png",
+    image: "/assets/backgrounds/kmenu.jpg",
     bgImage: "/assets/backgrounds/kmenu.jpg",
     frameworks: [
       { id: 1, name: "React" },
@@ -94,32 +97,20 @@ export const projects = [
     ],
   },
   {
-    id: 2,
-    name: "TRIPPASS",
-    description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
-    href: "",
-    image: "/assets/projects/trippass.png",
-    bgImage: "/assets/backgrounds/trippass.jpg",
-    frameworks: [
-      { id: 1, name: "React, Javascript" },
-      { id: 2, name: "Python, FastAPI" },
-      { id: 3, name: "MySQL, MongoDB" },
-      { id: 4, name: "OpenAI, Gemini, SerpAPI, OpenWeathermap" },
-    ],
-  },
-  {
     id: 3,
     name: "On the Rock",
     description:
       "An e-commerce platform for Apple products and accessories with deals and category filtering.",
-    href: "",
-    image: "/assets/projects/ontherock.png",
+    href: "https://github.com/osy0602/AWS_SY_apiProject",
+    image: "/assets/backgrounds/ontherock.jpg",
     bgImage: "/assets/backgrounds/ontherock.jpg",
     frameworks: [
-      { id: 1, name: "Python, Javascript" },
-      { id: 2, name: "FastAPI, NodeJS" },
-      { id: 3, name: "MySQL, MongoDB" },
+      { id: 1, name: "Python" },
+      { id: 2, name: "Javascript" },
+      { id: 3, name: "FastAPI" },
+      { id: 4, name: "NodeJS" },
+      { id: 5, name: "MySQL" },
+      { id: 6, name: "MongoDB" },
     ],
   },
   {
@@ -127,13 +118,15 @@ export const projects = [
     name: "Emotion Palette",
     description:
       "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/emotionpalette.png",
+    href: "https://github.com/osy0602/EmotionPalette",
+    image: "/assets/backgrounds/emotionpalette.jpg",
     bgImage: "/assets/backgrounds/emotionpalette.jpg",
     frameworks: [
-      { id: 1, name: "Python, C#" },
-      { id: 2, name: "MediaPipe, Unity" },
-      { id: 3, name: "Firebase" },
+      { id: 1, name: "Python" },
+      { id: 2, name: "C#" },
+      { id: 3, name: "MediaPipe" },
+      { id: 4, name: "Unity" },
+      { id: 5, name: "Firebase" },
     ],
   },
 ];

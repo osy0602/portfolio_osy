@@ -34,9 +34,9 @@ const ServiceSummary = () => {
         });
     });
     return (
-        <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive text-[#C2C7C1]">
+        <section className="mt-20 overflow-hidden font-light leading-snug text-center mb-42 contact-text-responsive text-cloud">
             <div id ="title-service-1">
-                <p>Frontends</p>
+                <p className="text-yellow">Frontends</p>
             </div>
             <div 
                 id = "title-service-2"
@@ -46,7 +46,7 @@ const ServiceSummary = () => {
                 <p>Development</p>
             </div>
             <div id = "title-service-3" className="flex items-center justify-center gap-3 translate-x-48">
-                <p>APIs</p>
+                <p className="text-red">APIs</p>
                 <div className="w-10 h-1 md:w-32 bg-yellow" />
                 <p className="italic">Backends</p>
                 <div className="w-10 h-1 md:w-32 bg-yellow" />

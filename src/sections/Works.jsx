@@ -82,13 +82,18 @@ const Works = () => {
         moveX.current(mouse.current.x);
         moveY.current(mouse.current.y);
     }
+    const handleMouseClick = (url) => {
+        if(url) {
+            window.open(url);
+        }
+    }
   return (
     <section id='work' className="flex flex-col min-h-screen">
         <AnimatedHeaderSection
             subTitle={"Things I've Built"}
             title={"Works"}
             text={text}
-            textColor={"text-black"}
+            textColor={"text-white"}
             withScrollTrigger={true}
         />
         <div className="relative flex flex-col font-light"
@@ -100,24 +105,25 @@ const Works = () => {
                     className="relative flex flex-col gap-1 py-5 cursor-pointer group md:gap-0"
                     onMouseEnter={() => handleMouseEnter(index)}
                     onMouseLeave = {() => handleMouseLeave(index)}
+                    onClick={() => handleMouseClick(project.href)}
                 >
                 {/* overlay */}
                 <div ref ={(el) => {
                     overlayRefs.current[index] = el;
                     }}
-                    className="absolute inset-0 hidden md:block duration-200 bg-black -z-10 clip-path" />
+                    className="absolute inset-0 hidden md:block duration-200 bg-yellow -z-10 clip-path" />
                 {/* title */}
-                <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+                <div className="flex justify-between px-10 text-white transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
                     <h2 className="lg:text-[32px] text-[26px] leading-none">{project.name}</h2>
                 <Icon icon="lucide:arrow-up-right" className="md:size-6 size-5" />
                 </div>
                 {/* divider */}
-                <div className="w-full h-0.5 bg-black/80" />
+                <div className="w-full h-0.5 bg-white/80" />
 
                 {/* frameworks */}
                 <div className="flex px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
                     {project.frameworks.map((framework) => (
-                        <p key ={framework.id} className="text-black transition-colors duration-500 md:group-hover:text-white">{framework.name}</p>
+                        <p key ={framework.id} className="text-white transition-colors duration-500 md:group-hover:text-white">{framework.name}</p>
                     ))}
                 </div>
                 {/* mobile preview image */}
@@ -138,7 +144,7 @@ const Works = () => {
             {/* desktopfloatingimg */}
             <div 
                 ref = {previewRef}
-                className="fixed -top-2/6 left-0 z-50 overflow-hidden border-8 border-black pointer-events-none w-[960px] md:block hidden">
+                className="fixed -top-2/6 left-0 z-50 overflow-hidden border-3 border-yellow pointer-events-none w-[960px] md:block hidden">
                 {currentIndex != null && (
                 <img src={projects[currentIndex].image} alt="preview"
                     className="object-cover w-full h-full" />

@@ -95,6 +95,7 @@
   --color-red: #C0311B;
   --color-yellow: #E5DFA1;
   --color-cloud: #C2C7C1;
+  --color-sky: #6189C5;
   --font-amiamie: "Amiamie", sans-serif;
   --font-amiamie-round: "Amiamie-Round", sans-serif;
   --font-theater: "TheaterBold";
@@ -140,7 +141,7 @@ body {
 }
 
 @utility banner-text-responsive {
-  @apply text-[68px] sm:text-[118px] md:text-[126px] lg:text-[152px] leading-9 sm:leading-16 lg:leading-20;
+  @apply text-[68px] sm:text-[118px] md:text-[126px] lg:text-[190px] leading-9 sm:leading-16 lg:leading-20;
 }
 
 @utility value-text-responsive {

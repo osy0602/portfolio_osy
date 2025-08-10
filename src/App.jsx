@@ -35,7 +35,6 @@ const App = () => {
         <Skills />
         <About />
         <Works />
-        <ContactSummary />
         <Contact />
       </div>
     </ReactLenis>
